@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/will/AndroidStudioProjects/Quake Report/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/will/AndroidStudioProjects/Quake Report/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_dca67afa0057fafb35bc66cd8ed657edc4b3c17f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/will/AndroidStudioProjects/Quake Report/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccd2636f7a2ddd715d7d89c2a696f7ebb911435c">
+        <dex dex="/Users/will/AndroidStudioProjects/Quake Report/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_201781b097ab758a0d6fb9743a0fe3035559d3c4/classes.dex" />
+    </item>
+
+</items>
