@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -14,8 +13,8 @@ import java.util.ArrayList;
  * Created by will on 27/07/2017.
  */
 
-public class EqInfoAdapter extends ArrayAdapter<EqInfo> {
-    public EqInfoAdapter(Activity context, ArrayList<EqInfo> EqInfos) {
+public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
+    public EarthquakeAdapter(Activity context, ArrayList<Earthquake> EqInfos) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
         // the second argument is used when the ArrayAdapter is populating a single TextView.
         // Because this is a custom adapter for two TextViews and an ImageView, the adapter is not
@@ -32,7 +31,7 @@ public class EqInfoAdapter extends ArrayAdapter<EqInfo> {
                     R.layout.list_item, parent, false);
         }
 
-        EqInfo currentEqInfo = getItem(position);
+        Earthquake currentEqInfo = getItem(position);
 
         TextView magTextView = (TextView) listItemView.findViewById(R.id.magnitude_num);
         magTextView.setText(currentEqInfo.getEqMagnitude());

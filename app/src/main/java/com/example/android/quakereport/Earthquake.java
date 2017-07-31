@@ -4,7 +4,7 @@ package com.example.android.quakereport;
  * Created by will on 27/07/2017.
  */
 
-public class EqInfo {
+public class Earthquake {
 
     private String mEqMagnitude;
 
@@ -13,7 +13,7 @@ public class EqInfo {
     private String mEqDate;
 
 
-    public EqInfo(String vEqMagnitude, String vEqPlace, String vEqDate)
+    public Earthquake(String vEqMagnitude, String vEqPlace, String vEqDate)
     {
         mEqMagnitude = vEqMagnitude;
         mEqPlace = vEqPlace;
