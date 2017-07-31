@@ -46,3 +46,5 @@ public class EqInfoAdapter extends ArrayAdapter<EqInfo> {
         return listItemView;
     }
 }
+
+//reset head test04
