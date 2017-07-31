@@ -47,3 +47,6 @@ public class EarthquakeActivity extends AppCompatActivity {
         earthquakeListView.setAdapter(iEqInfoAdapter);
     }
 }
+
+
+//reset head test01
