@@ -51,3 +51,4 @@ public class EarthquakeActivity extends AppCompatActivity {
 
 //reset head test01
 //reset head test05
+//reset head test06
