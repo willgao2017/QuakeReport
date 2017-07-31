@@ -34,3 +34,6 @@ public class EqInfo {
         return mEqMagnitude;
     }
 }
+
+
+   // reset head test03
