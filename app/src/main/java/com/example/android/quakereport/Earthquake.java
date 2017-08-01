@@ -12,12 +12,14 @@ public class Earthquake {
 
     private String mEqDate;
 
+    private long mTimeInMilliseconds;
 
-    public Earthquake(String vEqMagnitude, String vEqPlace, String vEqDate)
+
+    public Earthquake(String vEqMagnitude, String vEqPlace, long timeInMilliseconds)
     {
         mEqMagnitude = vEqMagnitude;
         mEqPlace = vEqPlace;
-        mEqDate = vEqDate;
+        mTimeInMilliseconds = timeInMilliseconds;
     }
 
     public String getEqPlace() {
@@ -25,8 +27,8 @@ public class Earthquake {
     }
 
 
-    public String getEqDate() {
-        return mEqDate;
+    public long getTimeInMilliseconds() {
+        return mTimeInMilliseconds;
     }
 
 
