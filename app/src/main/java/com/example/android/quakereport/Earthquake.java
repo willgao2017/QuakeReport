@@ -14,10 +14,13 @@ public class Earthquake {
 
     private long mTimeInMilliseconds;
 
+    private double mMagnitude;
 
-    public Earthquake(String vEqMagnitude, String vEqPlace, long timeInMilliseconds)
+
+
+    public Earthquake(double magnitude, String vEqPlace, long timeInMilliseconds)
     {
-        mEqMagnitude = vEqMagnitude;
+        mMagnitude = magnitude;
         mEqPlace = vEqPlace;
         mTimeInMilliseconds = timeInMilliseconds;
     }
@@ -32,9 +35,10 @@ public class Earthquake {
     }
 
 
-    public String getEqMagnitude() {
-        return mEqMagnitude;
+    public double getMagnitude() {
+        return mMagnitude;
     }
+
 }
 
 
