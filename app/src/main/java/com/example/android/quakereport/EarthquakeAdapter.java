@@ -41,7 +41,7 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
 
         Earthquake currentEqInfo = getItem(position);
 
-        TextView magTextView = (TextView) listItemView.findViewById(R.id.magnitude_num);
+        TextView magTextView = (TextView) listItemView.findViewById(R.id.magnitude);
         String formattedMagnitude = formatMagnitude(currentEqInfo.getMagnitude());
         magTextView.setText(formattedMagnitude);
 

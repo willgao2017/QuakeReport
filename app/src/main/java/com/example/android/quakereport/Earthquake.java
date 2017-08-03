@@ -16,13 +16,14 @@ public class Earthquake {
 
     private double mMagnitude;
 
+    private String mUrl;
 
-
-    public Earthquake(double magnitude, String vEqPlace, long timeInMilliseconds)
+    public Earthquake(double magnitude, String vEqPlace, long timeInMilliseconds, String url)
     {
         mMagnitude = magnitude;
         mEqPlace = vEqPlace;
         mTimeInMilliseconds = timeInMilliseconds;
+        mUrl = url;
     }
 
     public String getEqPlace() {
@@ -37,6 +38,10 @@ public class Earthquake {
 
     public double getMagnitude() {
         return mMagnitude;
+    }
+
+    public String getUrl() {
+        return mUrl;
     }
 
 }
