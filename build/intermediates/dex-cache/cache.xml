@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ccd2636f7a2ddd715d7d89c2a696f7ebb911435c">
+        sha1="5e385c2b8ee637ea0ce4970a24986b17e0c07b27">
         <dex dex="/Users/will/AndroidStudioProjects/Quake Report/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_201781b097ab758a0d6fb9743a0fe3035559d3c4/classes.dex" />
     </item>
 
