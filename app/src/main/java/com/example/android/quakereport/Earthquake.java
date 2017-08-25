@@ -47,4 +47,3 @@ public class Earthquake {
 }
 
 
-   // reset head test03
